@@ -10,5 +10,12 @@ func main() {
 	//docker.GetCurrentRunContainers()
 
 	// Jaccard相似度算法
-	algorithm.TestJaccard()
+	//algorithm.TestJaccard()
+
+	// 余弦相似度算法
+	//algorithm.TestCosine()
+
+	// TF-IDF算法
+	algorithm.TestTF_IDF()
+
 }
