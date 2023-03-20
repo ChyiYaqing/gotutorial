@@ -1,6 +1,8 @@
 package main
 
-import "github.com/chyiyaqing/gotutorial.git/pkg/algorithm"
+import (
+	"github.com/chyiyaqing/gotutorial.git/pkg/rwmutex"
+)
 
 func main() {
 
@@ -16,6 +18,7 @@ func main() {
 	//algorithm.TestCosine()
 
 	// TF-IDF算法
-	algorithm.TestTF_IDF()
+	//algorithm.TestTF_IDF()
+	rwmutex.TestRWMutex()
 
 }
