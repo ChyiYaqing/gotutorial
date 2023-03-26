@@ -2,7 +2,10 @@ module github.com/chyiyaqing/gotutorial.git
 
 go 1.19
 
-require github.com/docker/docker v23.0.1+incompatible
+require (
+	github.com/docker/docker v23.0.1+incompatible
+	github.com/gorilla/websocket v1.5.0
+)
 
 require (
 	github.com/Microsoft/go-winio v0.6.0 // indirect
